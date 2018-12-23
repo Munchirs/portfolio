@@ -71,7 +71,6 @@
     &.show {
       // Slide in From Top
       transform: translate3d(0, 0, 0);
-      @include easeOut;
     }
   }
 
@@ -84,7 +83,6 @@
     &.show {
       // Slide in From Bottom
       transform: translate3d(0, 0, 0);
-      @include easeOut;
     }
 
     .portrait {
