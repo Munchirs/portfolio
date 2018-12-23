@@ -57,14 +57,14 @@
       height: 250px;
       background: url(../img/portrait.jpg);
       border-radius: 50%;
-      border: solid 3px #FF7A00; }
+      border: solid 3px #ff7a00; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 1s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #FF7A00; }
+      color: #ff7a00; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 1s ease-out; }
     .menu .nav-link:hover {
-      color: #FF7A00; }
+      color: #ff7a00; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -139,7 +139,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #FF7A00; }
+  color: #ff7a00; }
 
 main {
   padding: 4rem;
@@ -149,7 +149,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #FF7A00;
+        color: #ff7a00;
         transition: all 1s ease-out; }
   main#home {
     overflow: hidden; }
@@ -159,14 +159,14 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-image {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #FF7A00 3px solid; }
+  border: #ff7a00 3px solid; }
 
 .bio {
   grid-area: bio;
@@ -184,18 +184,18 @@ main {
 .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #FF7A00 5px solid; }
+  border-bottom: #ff7a00 5px solid; }
 
 .projects {
   display: grid;
-  grid-gap: .7rem;
+  grid-gap: 0.7rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #FF7A00;
+      border-color: #ff7a00;
       transition: all 1s ease-out; }
 
 .boxes {
@@ -203,16 +203,17 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 0rem; }
+  margin-top: 1rem; }
   .boxes div {
     font-size: 2rem;
+    font-weight: 200;
     border: 3px #fff solid;
-    padding: 1.5rem 3.5rem;
+    padding: 1rem 2rem;
     margin-bottom: 3rem;
     transition: all 1s ease-out; }
     .boxes div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #FF7A00;
+      padding: 0rem 1rem;
+      background: #ff7a00;
       color: #000; }
       .boxes div:hover span {
         color: #000; }
@@ -223,7 +224,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #FF7A00;
+    background: #ff7a00;
     color: #000; }
 
 .btn-dark {
@@ -270,7 +271,7 @@ main {
     font-size: 24px; }
   .menu-branding {
     height: 25vh;
-    transform: translate3d(100, 0, 0); }
+    transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(..//img/small.jpg);
       width: 187px;
