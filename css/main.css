@@ -274,7 +274,7 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media only screen and (min-width: 375px) and (max-width: 812px) and (-webkit-device-pixel-ratio: 3) {
   main {
     padding: 2rem; }
     main #home h1 {
